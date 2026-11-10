@@ -1,0 +1,10 @@
+const accountId = 144553
+let accountEmail = "divya.com"
+var accountPassward = "1234"
+accountCity = "Jaipur"
+//accountId=2 //not allow
+console.log(accountId);
+accountEmail = "h@hc.com"
+accountPassward = "divya@"
+accountCity = "ballia"
+console.table([accountEmail, accountPassward, accountCity])
