@@ -21,4 +21,4 @@ console.log(newStringOne);
 console.log(newStringOne.trim());
 const url ="https://divya.com/divya%20verma"
 console.log(url.replace('%20','-'));
-console.log(game.split('-'));
+console.log(game.split('-'));//hiteash-hc-com convert krna hain array me tb

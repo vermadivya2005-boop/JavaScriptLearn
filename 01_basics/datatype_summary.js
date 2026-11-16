@@ -16,4 +16,5 @@ const score=false
 //stack(primitive) ,heap(non -primitive)
 let myYoutubename ="divya"
 let anothername=myYoutubename
+anothername="chaiaurcode"
 console.log(anothername);

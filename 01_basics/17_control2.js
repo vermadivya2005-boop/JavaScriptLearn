@@ -52,5 +52,11 @@ if(userEmail){
 
 //nullish coalescing opertaor (??):null underline
 let val1;
-val1 = 5??10
+//val1 = 5??10//output 5
+val1 =null??10//out 10
+val1 =undefined??15//out 15
+val1=null??10??20//10
+
 console.log(val1);
+//terbiary opertor
+//condition? true:false

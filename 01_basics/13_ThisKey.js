@@ -23,7 +23,7 @@ const user ={
 //     let username="hitesh"
 //     console.log(this.username)
 // }
-// chai()
+// chai()//output undefinded
 
 
 //arrow function declaration
@@ -37,8 +37,11 @@ chai()//undefinded output
 // const addTwo =(num1,num2)=>{
 // return num1+num2
 // }
-//implicit return
-const addTwo =(num1,num2)=> return num1+num2
+//implicit return me retun nahi used hota
+//const addTwo =(num1,num2)=>  num1+num2 
+//const addTwo =(num1,num2)=>(num1+num2)// return nahi liyana hain
 
+//object return
+const addTwo =(num1,num2)=>({username:"hitesh"})
 
 console.log(addTwo(3,4))

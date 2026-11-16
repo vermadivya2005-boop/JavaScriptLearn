@@ -21,9 +21,4 @@ navbar(company="hetish")
 //     "coursename":"js in hindi",
 //     "price":"free"
 // }//api formate
-[
-{},
-{},
-{},
-    
-]
+ 

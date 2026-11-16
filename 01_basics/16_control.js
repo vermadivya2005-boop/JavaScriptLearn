@@ -40,7 +40,7 @@ const loggedInemail=true
 if(userLoggedIn && debitCard){//dono true hona chaye
     console.log("allow to buy course")
 }
-if(loggedIngoogle||loggedInemail){
+if(loggedIngoogle||loggedInemail){//koi ek bhi true ho
     console.log("user logged")
 }
 

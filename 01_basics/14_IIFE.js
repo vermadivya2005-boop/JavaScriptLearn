@@ -3,9 +3,11 @@
 
 //SYNTAX OF IIFE
 (function chai(){
+    //name iife
     console.log(`DB CONNECTED`)
 })();
 
 (()=>{
+    //simple iife
     console.log(`DB CONNECTED TWO`)
 })()
