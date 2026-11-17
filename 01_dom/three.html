@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code | dom</title>
+</head>
+<body>
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+        // li add kr rha hain 
+        const li=document.createElement('li');
+        li.innerHTML=`${langName}`;
+        document.querySelector(`.language`).
+        appendchild(li)
+    }
+    addLanguage("python");
+
+
+    function addoptLanguage(LangName){
+        const li=document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    addoptLanguage('cc')
+
+    //edit
+    const secondLang =document.querySelector("li:nth-child(1)")
+    const newli=document.createElement('li')
+    newli.textContent="manjo"
+    secondLang.replaceWith(newli)
+</script>
+</html>
